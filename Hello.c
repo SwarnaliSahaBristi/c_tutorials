@@ -1,4 +1,4 @@
-# include<stdio.h>
+# include<stdio.h> //-->preprocessor director
 
 int main(){
     int age = 22;
