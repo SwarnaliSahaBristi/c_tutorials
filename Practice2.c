@@ -69,10 +69,24 @@
 
 //Write a program to check if given character is digit or not.
 
-int main(){
-    char x ;
-    printf("enter the value of x: ");
-    scanf("%c", &x);
-    printf("%d \n", x >= '0' && x <= '9' );
-    return 0;
-}
+// int main(){
+//     char x ;
+//     printf("enter the value of x: ");
+//     scanf("%c", &x);
+//     printf("%d \n", x >= '0' && x <= '9' );
+//     return 0;
+// }
+
+//Write a program to print the smallest number of two.
+
+// int main(){
+//     int x, y;
+//     printf("enter the value of x: ");
+//     scanf("%d", &x);
+//     printf("enter the value of y: ");
+//     scanf("%d", &y);
+//     printf("the smallest number is %d \n", x * (x < y) + y * !(x < y));
+//     return 0;
+// }
+
+//Write a program to print the smallest number of three.
