@@ -42,6 +42,9 @@ int main(){
     // && AND 
     // || OR
     // ! NOT
-    printf("%d \n", !(3 > 4 && 5 > 2));
+    // printf("%d \n", !(3 > 4 && 5 > 2));
+
+    //assignment operator
+    // =, +=, -=, *=, /=, %=
     return 0;
 }
