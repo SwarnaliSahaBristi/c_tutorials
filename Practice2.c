@@ -90,3 +90,22 @@
 // }
 
 //Write a program to print the smallest number of three.
+
+// int main(){
+//     int x, y, z;
+//     printf("enter the value of x: ");
+//     scanf("%d", &x);
+//     printf("enter the value of y: ");
+//     scanf("%d", &y);
+//     printf("enter the value of z: ");
+//     scanf("%d", &z);
+//     int smallest = x * (x <= y ) + y * !(x <= y );
+//     printf("the smallest number is %d \n", smallest * (smallest <= z) + z * !(smallest <= z));
+//     return 0;
+// }
+
+//তিনটি সংখ্যার মধ্যে সবচেয়ে বড়টি বের করো।
+//একটি সংখ্যা Even হলে 1 প্রিন্ট করো, Odd হলে 0 প্রিন্ট করো
+//দুই সংখ্যার Absolute Difference বের করো
+//দুই সংখ্যার মধ্যে যেটি বড়, সেটিকে ছোটটি দিয়ে ভাগ করো (integer division)
+//দুই সংখ্যা সমান হলে 1, না হলে 0 প্রিন্ট করো।
