@@ -42,10 +42,27 @@
 
 //if a number is greater than 9 & less than 100 -> true (2 digit number)
 
+// int main(){
+//     int x;
+//     printf("enter number : ");
+//     scanf("%d", &x);
+//     printf("%d \n", x>9 && x<100);
+//     return 0;
+// }
+
+//Write a program to print the average of 3 numbers.
+
 int main(){
-    int x;
-    printf("enter number : ");
+    int x,y,z;
+    printf("enter the value of x: ");
     scanf("%d", &x);
-    printf("%d \n", x>9 && x<100);
+
+    printf("enter the value of y: ");
+    scanf("%d", &y);
+
+    printf("enter the value of z: ");
+    scanf("%d", &z);
+
+    printf("The average is: %f \n", (x+y+z)/3.0);
     return 0;
 }
