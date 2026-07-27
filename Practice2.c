@@ -105,7 +105,23 @@
 // }
 
 //তিনটি সংখ্যার মধ্যে সবচেয়ে বড়টি বের করো।
+
+// int main(){
+//     int x, y, z;
+//     printf("enter the value of x: ");
+//     scanf("%d", &x);
+//     printf("enter the value of y: ");
+//     scanf("%d", &y);
+//     printf("enter the value of z: ");
+//     scanf("%d", &z);
+//     int biggest = x * (x >= y ) + y * !(x >= y );
+//     printf("the biggest number is %d \n", biggest * (biggest >= z) + z * !(biggest >= z));
+//     return 0;
+// }
+
 //একটি সংখ্যা Even হলে 1 প্রিন্ট করো, Odd হলে 0 প্রিন্ট করো
+
+
 //দুই সংখ্যার Absolute Difference বের করো
 //দুই সংখ্যার মধ্যে যেটি বড়, সেটিকে ছোটটি দিয়ে ভাগ করো (integer division)
 //দুই সংখ্যা সমান হলে 1, না হলে 0 প্রিন্ট করো।
