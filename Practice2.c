@@ -2,10 +2,22 @@
  #include<stdio.h>
  #include<math.h>
 
- int main(){
+//  int main(){
+//     int x;
+//     printf("enter a number : ");
+//     scanf("%d", &x);
+//     printf("%d \n", x % 2 == 0);
+//     return 0;
+//  }
+
+ //write a program to check if a number is odd or even.
+
+int main(){
+    //even -> 1
+    //odd -> 0
     int x;
     printf("enter a number : ");
     scanf("%d", &x);
     printf("%d \n", x % 2 == 0);
     return 0;
- }
+}
