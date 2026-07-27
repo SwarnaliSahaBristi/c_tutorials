@@ -52,17 +52,27 @@
 
 //Write a program to print the average of 3 numbers.
 
+// int main(){
+//     int x,y,z;
+//     printf("enter the value of x: ");
+//     scanf("%d", &x);
+
+//     printf("enter the value of y: ");
+//     scanf("%d", &y);
+
+//     printf("enter the value of z: ");
+//     scanf("%d", &z);
+
+//     printf("The average is: %f \n", (x+y+z)/3.0);
+//     return 0;
+// }
+
+//Write a program to check if given character is digit or not.
+
 int main(){
-    int x,y,z;
+    char x ;
     printf("enter the value of x: ");
-    scanf("%d", &x);
-
-    printf("enter the value of y: ");
-    scanf("%d", &y);
-
-    printf("enter the value of z: ");
-    scanf("%d", &z);
-
-    printf("The average is: %f \n", (x+y+z)/3.0);
+    scanf("%c", &x);
+    printf("%d \n", x >= '0' && x <= '9' );
     return 0;
 }
