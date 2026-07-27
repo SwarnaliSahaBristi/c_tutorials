@@ -42,5 +42,6 @@ int main(){
     // && AND 
     // || OR
     // ! NOT
+    printf("%d \n", !(3 > 4 && 5 > 2));
     return 0;
 }
