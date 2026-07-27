@@ -39,3 +39,13 @@
 //     printf("%d \n", isMonday || isRaining);
 //     return 0;
 // }
+
+//if a number is greater than 9 & less than 100 -> true (2 digit number)
+
+int main(){
+    int x;
+    printf("enter number : ");
+    scanf("%d", &x);
+    printf("%d \n", x>9 && x<100);
+    return 0;
+}
