@@ -34,6 +34,8 @@ int main(){
     // int a = 5 + 2 / 2 * 3;
     // printf("%d \n", a);
 
-    printf("%d \n", 4 == 5); //no true false in c language if true = 1 or if false = 0
+    //no true false in c language if true = 1 or if false = 0
+    // ! means not
+    // printf("%d \n", 4 != 4); 
     return 0;
 }
