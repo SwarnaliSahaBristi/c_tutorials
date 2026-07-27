@@ -37,5 +37,10 @@ int main(){
     //no true false in c language if true = 1 or if false = 0
     // ! means not
     // printf("%d \n", 4 != 4); 
+
+    //logial operator
+    // && AND 
+    // || OR
+    // ! NOT
     return 0;
 }
