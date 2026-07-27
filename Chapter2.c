@@ -44,7 +44,12 @@ int main(){
     // ! NOT
     // printf("%d \n", !(3 > 4 && 5 > 2));
 
-    //assignment operator
+    //assignment operator(shorthand operators)
     // =, +=, -=, *=, /=, %=
+    int a = 1;
+    int b = 4;
+    a -= b; //a = a - b
+    printf("%d \n", a);
+
     return 0;
 }
