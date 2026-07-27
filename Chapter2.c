@@ -30,7 +30,8 @@ int main(){
     // printf("%d", -13%10);
 
     // printf("%d \n", 2 / 2);
-    int a = (float) 1.999999;
+    // int a = (float) 1.999999;
+    int a = 5 + 2 / 2 * 3;
     printf("%d \n", a);
     return 0;
 }
