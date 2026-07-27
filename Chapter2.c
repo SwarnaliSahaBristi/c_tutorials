@@ -31,7 +31,9 @@ int main(){
 
     // printf("%d \n", 2 / 2);
     // int a = (float) 1.999999;
-    int a = 5 + 2 / 2 * 3;
-    printf("%d \n", a);
+    // int a = 5 + 2 / 2 * 3;
+    // printf("%d \n", a);
+
+    printf("%d \n", 4 == 5); //no true false in c language if true = 1 or if false = 0
     return 0;
 }
