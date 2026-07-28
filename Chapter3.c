@@ -48,9 +48,11 @@ int main(){
     scanf("%c", &ch);
 
     if(ch >= 'A' && ch <= 'Z'){
-        printf("UPPER CASE");
+        printf("UPPER CASE \n");
     } else if( ch >= 'a' && ch <= 'z'){
-        printf("LOWER CASE");
+        printf("LOWER CASE \n");
+    } else{
+        printf("Not English");
     }
     return 0;
 }
