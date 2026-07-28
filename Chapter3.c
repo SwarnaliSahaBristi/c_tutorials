@@ -15,12 +15,15 @@ int main(){
     printf("enter number(0-100) : ");
     scanf("%d", &marks);
 
-    if(marks > 30 && marks <= 100){
-        printf("PASSED \n");
-    } else if(marks >=0 && marks <= 30) {
-        printf("FAILED \n");
-    } else {
-        printf("WRONG MARKS");
-    }
+    // if(marks > 30 && marks <= 100){
+    //     printf("PASSED \n");
+    // } else if(marks >=0 && marks <= 30) {
+    //     printf("FAILED \n");
+    // } else {
+    //     printf("WRONG MARKS");
+    // }
+
+    // ternary
+    marks <= 30 ? printf("FAILED \n") : printf("PASSED \n");
     return 0;
 }
