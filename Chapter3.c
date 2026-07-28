@@ -24,6 +24,18 @@ int main(){
     // }
 
     // ternary
-    marks <= 30 ? printf("FAILED \n") : printf("PASSED \n");
+    // marks <= 30 ? printf("FAILED \n") : printf("PASSED \n");
+
+    if(marks < 30) {
+        printf("C \n"); 
+    } else if (marks >= 30 && marks < 70) {
+        printf("B \n");
+    } else if (marks >= 70 && marks < 90) {
+        printf("A \n");
+    } else {
+        printf("A+ \n");
+    }
+    
+    
     return 0;
 }
