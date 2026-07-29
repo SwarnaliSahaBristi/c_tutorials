@@ -35,8 +35,13 @@ int main(){
     // printf("%d \n", ++i); //increase then use
     // printf("%d \n", i);
 
-    printf("%d \n", --i);
-    printf("%d \n", i);
+    // printf("%d \n", --i);
+    // printf("%d \n", i);
+
+    //loop counter can be float or character
+    for(float i=1.0; i<=5; i++){
+        printf("%f \n", i);
+    }
     
     return 0;
 }
