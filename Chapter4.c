@@ -58,7 +58,13 @@ while(condition){
 }
 */
 
+//print the numbers from 0 to n, if n is give by user n=4
+
 int main(){
-    
+    int i=1;
+    while(i<=5){
+        printf("Hello world \n");
+        i++;
+    }
     return 0;
 }
