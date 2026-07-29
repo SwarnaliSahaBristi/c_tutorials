@@ -121,11 +121,41 @@ do{
 
 //break statement---> exit the loop//
 int main(){
-    for(int i=1; i<=5; i++){
-        if(i==3){
+    // for(int i=1; i<=5; i++){
+    //     if(i==3){
+    //         break;
+    //     }
+    //     printf("%d \n", i);
+    // }
+
+//keep taking numbers as input from user until user enters an odd number --->do while
+
+    // int n;
+    // do
+    // {
+    //     printf("enter number: ");
+    //     scanf("%d", &n);
+    //     printf("%d \n", n);
+
+    //     if(n % 2 !=0){
+    //         break;
+    //     }
+    // } while (1);
+    // printf("THANK YOU");
+
+//keep taking numbers as input from user until user enters a number which is multiple of 7.    
+    int n;
+    do
+    {
+        printf("enter number: ");
+        scanf("%d", &n);
+        printf("%d \n", n);
+
+        if(n % 2 !=0){
             break;
         }
-        printf("%d \n", i);
-    }
+    } while (1);
+    printf("THANK YOU");
+
     return 0;
 }
