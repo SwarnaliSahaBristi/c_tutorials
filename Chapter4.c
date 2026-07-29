@@ -12,7 +12,12 @@ for(initialisation; condition; updation){
 //print the numbers from 0 to 10
 int main(){
     //iterator ; counter
-    for(int i=0; i<=10; i=i+1){
+    //i=i+1 shorthand i++
+
+    //increment operator
+    //++i i++
+    
+    for(int i=0; i<=10; i++){
         printf("%d \n", i);
     }
     return 0;
