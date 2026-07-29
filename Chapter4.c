@@ -90,3 +90,26 @@ do{
     do something
 } while(condition);
 */
+
+//print the sum of first n Natural Numbers. also, print them in reverse.
+int main(){
+    // int i = 5;
+    // do
+    // {
+    //     printf("%d \n", i);
+    //     i--;
+    // } while (i>=0);
+
+    int n;
+    printf("enter number: ");
+    scanf("%d", &n);
+
+    int sum= 0;
+    for(int i=1, j=n; i<=n && j>=1; i++, j--){
+        sum= sum+i; //sum +=i
+        printf("%d \n", j);
+    }
+    printf("sum is %d \n", sum);
+    
+    return 0;
+}
