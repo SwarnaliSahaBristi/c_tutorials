@@ -61,10 +61,22 @@ while(condition){
 //print the numbers from 0 to n, if n is give by user n=4
 
 int main(){
-    int i=1;
-    while(i<=5){
-        printf("Hello world \n");
-        i++;
+    // int i=1;
+    // while(i<=5){
+    //     printf("Hello world \n");
+    //     i++;
+    // }
+
+    int n;
+    printf("enter number: ");
+    scanf("%d", &n);
+
+    int i=0;
+    while (i<=n)
+    {
+       printf("%d \n", i);
+       i++;
     }
+    
     return 0;
 }
