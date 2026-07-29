@@ -120,7 +120,7 @@ do{
 // }
 
 //break statement---> exit the loop//
-int main(){
+// int main(){
     // for(int i=1; i<=5; i++){
     //     if(i==3){
     //         break;
@@ -144,18 +144,37 @@ int main(){
     // printf("THANK YOU");
 
 //keep taking numbers as input from user until user enters a number which is multiple of 7.    
-    int n;
-    do
-    {
-        printf("enter number: ");
-        scanf("%d", &n);
-        printf("%d \n", n);
+//     int n;
+//     do
+//     {
+//         printf("enter number: ");
+//         scanf("%d", &n);
+//         printf("%d \n", n);
 
-        if(n % 7 ==0){
-            break;
+//         if(n % 7 ==0){
+//             break;
+//         }
+//     } while (1);
+//     printf("THANK YOU");
+
+//     return 0;
+// }
+
+//continue statement==>> skip to next iteration
+int main(){
+    // for(int i=1; i<=5; i++){
+    //     if(i==4){   //skip
+    //         continue;
+    //     }
+    //     printf("%d \n", i);
+    // }
+
+//print all numbers from 1 to 10 except for 6.
+    for(int i=1; i<=10; i++){
+        if(i==6){   //skip
+            continue;
         }
-    } while (1);
-    printf("THANK YOU");
-
+        printf("%d \n", i);
+    }
     return 0;
 }
