@@ -60,26 +60,33 @@ while(condition){
 
 //print the numbers from 0 to n, if n is give by user n=4
 
-int main(){
-    // int i=1;
-    // while(i<=5){
-    //     printf("Hello world \n");
-    //     i++;
-    // }
+// int main(){
+//     // int i=1;
+//     // while(i<=5){
+//     //     printf("Hello world \n");
+//     //     i++;
+//     // }
 
-    int n;
-    printf("enter number: ");
-    scanf("%d", &n);
+//     int n;
+//     printf("enter number: ");
+//     scanf("%d", &n);
 
-    // int i=0;
-    // while (i<=n)
-    // {
-    //    printf("%d \n", i);
-    //    i++;
-    // }
-    for(int i=0; i<=n; i++){
-        printf("%d \n", i);
-    }
+//     // int i=0;
+//     // while (i<=n)
+//     // {
+//     //    printf("%d \n", i);
+//     //    i++;
+//     // }
+//     for(int i=3; i<=n; i++){
+//         printf("%d \n", i);
+//     }
     
-    return 0;
-}
+//     return 0;
+// }
+
+//do while loop
+/*
+do{
+    do something
+} while(condition);
+*/
