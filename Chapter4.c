@@ -178,10 +178,22 @@ int main(){
     // }
 
 //print all the odd numbers from 5 to 50.
-    for(int i=5; i<=50; i++){
-        if(i % 2 !=0){   //skip
-            printf("%d \n", i);
-        } 
-    }   
+    // for(int i=5; i<=50; i++){
+    //     if(i % 2 !=0){   //skip
+    //         printf("%d \n", i);
+    //     } 
+    // }  
+    
+//print the factorial of a number n.
+    int n;
+    printf("enter number: ");
+    scanf("%d", &n);
+    
+    int fact = 1;
+    for(int i=1; i<=n; i++){
+        fact = fact * i;
+    }
+    printf("final factorial is %d", fact);
+
     return 0;
 }
