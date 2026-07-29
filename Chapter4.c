@@ -14,11 +14,20 @@ int main(){
     //iterator ; counter
     //i=i+1 shorthand i++
 
+    // for(int i=0; i<=10; i++){
+    //     printf("%d \n", i);
+    // }
+
     //increment operator
-    //++i i++
+    //++i (pre-increment)
+    //i++ (post-increment)
+
+    int i=1;
+    // printf("%d \n", i++); //use, then increase
+    // printf("%d \n", i);
+
+    printf("%d \n", ++i); //increase then use
+    printf("%d \n", i);
     
-    for(int i=0; i<=10; i++){
-        printf("%d \n", i);
-    }
     return 0;
 }
