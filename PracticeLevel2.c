@@ -124,16 +124,50 @@
 // }
 
 //দুই সংখ্যার Absolute Difference বের করো
-int main(){
-    
-    return 0;
-}
+#include<stdlib.h> //// abs() ফাংশনের জন্য এটি যুক্ত করতে হবে
+// int main(){
+//     int x, y;
+//     // printf("enter the value of x: ");
+//     scanf("%d", &x);
+//     // printf("enter the value of y: ");
+//     scanf("%d", &y);
+//     printf("Absolute Difference: %d \n", abs(x-y));
+//     return 0;
+// }
+
 //দুই সংখ্যার মধ্যে যেটি বড়, সেটিকে ছোটটি দিয়ে ভাগ করো (integer division)
+#include<stdlib.h>
+    // int main(){
+    //     int x, y;
+    //     printf("enter the value of x: ");
+    //     scanf("%d", &x);
+    //     printf("enter the value of y: ");
+    //     scanf("%d", &y);
+    //     int max = (x+y+abs(x-y))/2;
+    //     int min = (x+y-abs(x-y))/2;
+    //     printf("Integer Division: %d \n", max/min);        
+    //     return 0;
+    // }
+
 //দুই সংখ্যা সমান হলে 1, না হলে 0 প্রিন্ট করো।
+//  int main(){
+//     int x, y;
+//     printf("enter the value of x: ");
+//     scanf("%d", &x);
+//     printf("enter the value of y: ");
+//     scanf("%d", &y);
+//     printf("isEqual: %d \n", x ==y);
+//     return 0;
+//  }
 
 // 1.Check whether a number is positive, negative, or zero.
-// 2.Find the largest of two numbers.
-// 3.Find the largest of three numbers.
+int main(){
+    int x;
+    printf("enter the value of x: ");
+    scanf("%d", &x);
+    return 0;
+}
+
 // 4.Check whether a number is even or odd.
 // 5.Check whether a year is a leap year.
 // 6.Check whether a character is:
