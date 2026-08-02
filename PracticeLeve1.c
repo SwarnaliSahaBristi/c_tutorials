@@ -48,13 +48,28 @@ Remainder
 // }
 
 //4.Take a character as input and print its ASCII(American Standard Code for Information Interchange) value.
+// int main(){
+//     char ch;
+//     printf("enter character: ");
+//     scanf("%c", &ch);
+//     printf("ASCII value: %d \n", ch);
+//     return 0;
+// }
+
+// 5.Swap two integers using a third variable.
 int main(){
-    char ch;
-    printf("enter character: ");
-    scanf("%c", &ch);
-    printf("ASCII value: %d \n", ch);
+    int a, b;
+    printf("enter value of a: ");
+    scanf("%d", &a);
+    printf("enter value of b: ");
+    scanf("%d", &b);
+    int temp;
+    printf("Before swiping: a=%d, b=%d \n", a,b);
+    temp=a;
+    a=b;
+    b=temp;
+    printf("After swiping: a=%d, b=%d \n", a,b);
     return 0;
 }
 
-// 5.Swap two integers using a third variable.
 // 6.Swap two integers without using a third variable.
