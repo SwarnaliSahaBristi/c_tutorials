@@ -14,3 +14,12 @@ Remainder
 */
 
 //1.Take an integer as input and print its square.
+// #include<stdio.h>
+// #include<math.h>
+// int main(){
+//     int x;
+//     printf("enter the value of x: ");
+//     scanf("%d", &x);
+//     printf("X value's square is: %f \n", pow(x,2)); //pow() ফাংশনটি সাধারণ int বা পূর্ণসংখ্যা নিয়ে কাজ করে না, এটি double বা দশমিক সংখ্যা নিয়ে কাজ করে
+//     return 0;
+// }
