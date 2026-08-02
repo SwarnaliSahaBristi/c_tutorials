@@ -1,8 +1,5 @@
 /*
 🟢 Level 1 - Variables & Input/Output
-
-
-3.Take a float representing Celsius and convert it to Fahrenheit.
 4.Take a character as input and print its ASCII value.
 5.Swap two integers using a third variable.
 6.Swap two integers without using a third variable.
@@ -28,18 +25,30 @@ Product গুণফল
 Quotient (integer division) ভাগফল
 Remainder
 */
+// int main(){
+//     int a, b;
+//     printf("enter value of a: ");
+//     scanf("%d", &a);
+
+//     printf("enter value of b: ");
+//     scanf("%d", &b);
+
+//     // printf("sum is: %d \n", a+b);
+//     // printf("difference is: %d \n", a-b);
+//     // printf("product is: %d \n", a*b);
+//     // printf("quotient is: %d \n", a/b);
+//     printf("reminder is: %d \n", a%b);
+//     return 0;
+// }
+
+//3.Take a float representing Celsius and convert it to Fahrenheit.
 int main(){
-    int a, b;
-    printf("enter value of a: ");
-    scanf("%d", &a);
+    float C;
+    printf("Enter C: ");
+    scanf("%f", &C);
 
-    printf("enter value of b: ");
-    scanf("%d", &b);
-
-    // printf("sum is: %d \n", a+b);
-    // printf("difference is: %d \n", a-b);
-    // printf("product is: %d \n", a*b);
-    // printf("quotient is: %d \n", a/b);
-    printf("reminder is: %d \n", a%b);
+    float Fahrenheit = (C*1.8) + 32;
+    printf("Fahrenheit value F is: %f \n", Fahrenheit);
     return 0;
 }
+
