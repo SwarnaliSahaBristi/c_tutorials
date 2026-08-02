@@ -1,20 +1,3 @@
-
-🟡 Level 2 - if-else
-1.Check whether a number is positive, negative, or zero.
-2.Find the largest of two numbers.
-3.Find the largest of three numbers.
-4.Check whether a number is even or odd.
-5.Check whether a year is a leap year.
-6.Check whether a character is:
-Uppercase
-Lowercase
-Digit
-Special character
-7.Calculate electricity bill:
-First 100 units = Tk. 5/unit
-Next 100 units = Tk. 8/unit
-Above 200 units = Tk. 10/unit
-
 🟠 Level 3 - switch
 1.Build a calculator using switch.
 
