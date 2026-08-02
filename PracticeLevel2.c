@@ -179,13 +179,13 @@
 // }
 
 // 5.Check whether a year is a leap year.
-int main(){
-    int year;
-    printf("enter the value of year: ");
-    scanf("%d", &year);
-    printf("%d \n", year%4==0);
-    return 0;
-}
+// int main(){
+//     int year;
+//     printf("enter the value of year: ");
+//     scanf("%d", &year);
+//     printf("%d \n", year%4==0);
+//     return 0;
+// }
 
 /*
 6.Check whether a character is:
