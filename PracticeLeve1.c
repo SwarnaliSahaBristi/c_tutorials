@@ -57,19 +57,32 @@ Remainder
 // }
 
 // 5.Swap two integers using a third variable.
+// int main(){
+//     int a, b;
+//     printf("enter value of a: ");
+//     scanf("%d", &a);
+//     printf("enter value of b: ");
+//     scanf("%d", &b);
+//     int temp;
+//     printf("Before swiping: a=%d, b=%d \n", a,b);
+//     temp=a;
+//     a=b;
+//     b=temp;
+//     printf("After swiping: a=%d, b=%d \n", a,b);
+//     return 0;
+// }
+
+// 6.Swap two integers without using a third variable.
 int main(){
     int a, b;
     printf("enter value of a: ");
     scanf("%d", &a);
     printf("enter value of b: ");
     scanf("%d", &b);
-    int temp;
     printf("Before swiping: a=%d, b=%d \n", a,b);
-    temp=a;
-    a=b;
-    b=temp;
+    a = a + b;
+    b = a - b;
+    a = a - b;
     printf("After swiping: a=%d, b=%d \n", a,b);
     return 0;
 }
-
-// 6.Swap two integers without using a third variable.
