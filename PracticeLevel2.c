@@ -161,12 +161,13 @@
 //  }
 
 // 1.Check whether a number is positive, negative, or zero.
-int main(){
-    int x;
-    printf("enter the value of x: ");
-    scanf("%d", &x);
-    return 0;
-}
+// int main(){
+//     int x;
+//     printf("enter the value of x: ");
+//     scanf("%d", &x);
+//     printf("%d", x>=0);
+//     return 0;
+// }
 
 // 4.Check whether a number is even or odd.
 // 5.Check whether a year is a leap year.
