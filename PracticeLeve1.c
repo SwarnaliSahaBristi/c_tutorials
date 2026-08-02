@@ -36,6 +36,7 @@ int main(){
     printf("enter value of b: ");
     scanf("%d", &b);
 
-    printf("sum is: %d \n", a+b);
+    // printf("sum is: %d \n", a+b);
+    printf("difference is: %d \n", a-b);
     return 0;
 }
