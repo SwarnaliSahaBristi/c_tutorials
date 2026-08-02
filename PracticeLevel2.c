@@ -170,16 +170,22 @@
 // }
 
 // 4.Check whether a number is even or odd.
-int main(){
-    int x;
-    printf("enter the value of x: ");
-    scanf("%d", &x);
-    printf("%d \n", x%2==0);
-    return 0;
-}
+// int main(){
+//     int x;
+//     printf("enter the value of x: ");
+//     scanf("%d", &x);
+//     printf("%d \n", x%2==0);
+//     return 0;
+// }
 
 // 5.Check whether a year is a leap year.
-
+int main(){
+    int year;
+    printf("enter the value of year: ");
+    scanf("%d", &year);
+    printf("%d \n", year%4==0);
+    return 0;
+}
 
 /*
 6.Check whether a character is:
