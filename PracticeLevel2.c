@@ -194,6 +194,12 @@ Lowercase
 Digit
 Special character
 */
+int main(){
+    char ch;
+    printf("enter the value of ch: ");
+    scanf("%d", &ch);
+    return 0;
+}
 
 /*
 7.Calculate electricity bill:
