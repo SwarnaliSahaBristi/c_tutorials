@@ -1,9 +1,4 @@
-/*
-🟢 Level 1 - Variables & Input/Output
-4.Take a character as input and print its ASCII value.
-5.Swap two integers using a third variable.
-6.Swap two integers without using a third variable.
-*/
+/*🟢 Level 1 - Variables & Input/Output*/
 
 #include<stdio.h>
 #include<math.h>
@@ -42,13 +37,24 @@ Remainder
 // }
 
 //3.Take a float representing Celsius and convert it to Fahrenheit.
-int main(){
-    float C;
-    printf("Enter C: ");
-    scanf("%f", &C);
+// int main(){
+//     float C;
+//     printf("Enter C: ");
+//     scanf("%f", &C);
 
-    float Fahrenheit = (C*1.8) + 32;
-    printf("Fahrenheit value F is: %f \n", Fahrenheit);
+//     float Fahrenheit = (C*1.8) + 32;
+//     printf("Fahrenheit value F is: %f \n", Fahrenheit);
+//     return 0;
+// }
+
+//4.Take a character as input and print its ASCII(American Standard Code for Information Interchange) value.
+int main(){
+    char ch;
+    printf("enter character: ");
+    scanf("%c", &ch);
+    printf("ASCII value: %d \n", ch);
     return 0;
 }
 
+// 5.Swap two integers using a third variable.
+// 6.Swap two integers without using a third variable.
