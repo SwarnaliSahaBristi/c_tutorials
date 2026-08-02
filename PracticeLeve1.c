@@ -24,8 +24,8 @@
 2.Take two integers and print:
 Sum
 Difference
-Product
-Quotient (integer division)
+Product গুণফল
+Quotient (integer division) ভাগফল
 Remainder
 */
 int main(){
@@ -37,6 +37,9 @@ int main(){
     scanf("%d", &b);
 
     // printf("sum is: %d \n", a+b);
-    printf("difference is: %d \n", a-b);
+    // printf("difference is: %d \n", a-b);
+    // printf("product is: %d \n", a*b);
+    // printf("quotient is: %d \n", a/b);
+    printf("reminder is: %d \n", a%b);
     return 0;
 }
