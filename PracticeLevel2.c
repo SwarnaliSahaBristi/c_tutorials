@@ -170,12 +170,19 @@ int main(){
 
 // 4.Check whether a number is even or odd.
 // 5.Check whether a year is a leap year.
-// 6.Check whether a character is:
-// Uppercase
-// Lowercase
-// Digit
-// Special character
-// 7.Calculate electricity bill:
-// First 100 units = Tk. 5/unit
-// Next 100 units = Tk. 8/unit
-// Above 200 units = Tk. 10/unit
+
+
+/*
+6.Check whether a character is:
+Uppercase
+Lowercase
+Digit
+Special character
+*/
+
+/*
+7.Calculate electricity bill:
+First 100 units = Tk. 5/unit
+Next 100 units = Tk. 8/unit
+Above 200 units = Tk. 10/unit
+*/
