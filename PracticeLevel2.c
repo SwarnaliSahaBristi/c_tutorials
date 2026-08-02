@@ -198,6 +198,7 @@ int main(){
     char ch;
     printf("enter the value of ch: ");
     scanf("%d", &ch);
+    printf("");
     return 0;
 }
 
